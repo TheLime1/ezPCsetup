@@ -1,6 +1,7 @@
 #custom
 test.ps1
 test.txt
+clutter.py
 
 .sass-cache/
 *.css.map

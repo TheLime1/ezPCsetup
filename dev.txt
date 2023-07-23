@@ -1,8 +1,8 @@
-choco install jre8
-choco install python3
-choco install git.install
-choco install vscode
-choco install filezilla
-choco install nodejs
-choco install php
-choco install virtualbox
+jre8
+python3
+git.install
+vscode
+filezilla
+nodejs
+php
+virtualbox

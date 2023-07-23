@@ -1,7 +1,7 @@
-choco install steam
-choco install epicgameslauncher
-choco install ubisoft-connect
-choco install geforce-game-ready-driver
-choco install ea-app
-choco install msiafterburner
-choco install goggalaxy
+steam
+epicgameslauncher
+ubisoft-connect
+geforce-game-ready-driver
+ea-app
+msiafterburner
+goggalaxy

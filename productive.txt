@@ -1,2 +1,2 @@
-choco install todoist-desktop
-choco install notion
+todoist-desktop
+notion

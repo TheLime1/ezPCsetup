@@ -1,15 +1,15 @@
-choco install adobereader
-choco install googlechrome
-choco install vcredist140
-choco install silverlight
-choco install notepadplusplus.install
-choco install dotnetfx
-choco install vlc
-choco install paint.net
-choco install malwarebytes
-choco install ccleaner
-choco install k-litecodecpackfull
-choco install spotify
-choco install powertoys
-choco install sharex
-choco install discord
+adobereader
+googlechrome
+vcredist140
+silverlight
+notepadplusplus.install
+dotnetfx
+vlc
+paint.net
+malwarebytes
+ccleaner
+k-litecodecpackfull
+spotify
+powertoys
+sharex
+discord

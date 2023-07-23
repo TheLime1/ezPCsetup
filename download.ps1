@@ -1,3 +1,9 @@
+# Check if running as administrator
+if (-not ([Security.Principal.WindowsPrincipal][Security.Principal.WindowsIdentity]::GetCurrent()).IsInRole([Security.Principal.WindowsBuiltInRole] "Administrator")) {
+    Write-Host "You must run this script as an Administrator." -ForegroundColor Red
+    exit
+}
+
 # Define the menu options
 $menu = @(
     "1 - essential",
@@ -34,10 +40,11 @@ foreach ($number in $numbers) {
         # Read the commands from the file
         $commands = Get-Content $file
 
-        # Execute each command
-        foreach ($command in $commands) {
-            Invoke-Expression $command
-        }
+        # Build the choco install command
+        $command = "choco install $($commands -join ' ') -y"
+
+        # Execute the command
+        Invoke-Expression $command
     } else {
         Write-Error "File not found: $file"
     }
