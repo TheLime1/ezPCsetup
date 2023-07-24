@@ -13,3 +13,4 @@ spotify
 powertoys
 sharex
 discord
+directx
