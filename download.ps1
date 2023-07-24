@@ -21,8 +21,10 @@ $files = @{
 }
 
 # Display the menu
-Write-Host "Please choose one or more options (separated by commas):"
-$menu
+Write-Host "`nPlease choose one or more options (separated by commas):`n" -ForegroundColor Cyan
+foreach ($option in $menu) {
+    Write-Host $option -ForegroundColor Yellow
+}
 
 # Read the user's choice
 $choice = Read-Host
