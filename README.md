@@ -13,7 +13,7 @@ This PowerShell script provides a menu-based interface for installing packages u
 1. Open a PowerShell console as an administrator.
 2. Navigate to the directory containing the script.
 3. Run the setup script `.\initial_setup.ps1`
-4. Run the script using the `.\menu.ps1` command.
+4. Run the script using the `.\download.ps1` command.
 5. Follow the on-screen instructions to choose one or more options from the menu.
 6. The script will install the packages associated with the chosen options.
 
