@@ -6,7 +6,7 @@ This PowerShell script provides a menu-based interface for installing packages u
 
 - Windows operating system (more operating systems soon)
 - Administrator privileges
-- .NET Framework 4 or higher [download here](https://dotnet.microsoft.com/en-us/download/dotnet-framework)
+- .NET Framework 4.8 or higher [download here](https://dotnet.microsoft.com/en-us/download/dotnet-framework)
 
 ## Usage
 
