@@ -16,8 +16,8 @@ try {
 } catch {
     $dotNetVersion = [System.Diagnostics.FileVersionInfo]::GetVersionInfo([System.Runtime.InteropServices.RuntimeEnvironment]::GetRuntimeDirectory() + "mscorlib.dll").FileVersion
 }
-if ([Version]$dotNetVersion -lt [Version]"4.0") {
-    Write-Error "You must have .NET Framework 4 or higher to use Chocolatey."
+if ([Version]$dotNetVersion -lt [Version]"4.8") {
+    Write-Error "You must have .NET Framework 4.8 or higher to use Chocolatey."
     exit
 }
 
